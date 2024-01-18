@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Tangy_Models
 {
-    public class SingInRequestDTO
+    public class SignInRequestDTO
     {
         [Required(ErrorMessage = "Username is required")]
         [RegularExpression("^[a-zA-Z0-9_.-]+@[a-zA-Z0-9-]+.[a-zA-Z0-9-.]+$", ErrorMessage = "Invalid username")]
