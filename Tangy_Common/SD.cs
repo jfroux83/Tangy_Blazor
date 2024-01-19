@@ -20,5 +20,8 @@ namespace Tangy_Common
         // user roles
         public const string Role_Admin = "Admin";
         public const string Role_Customer = "Customer";
+
+        // local storage
+        public const string Local_Token = "JWT Token";
     }
 }
